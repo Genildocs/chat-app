@@ -5,7 +5,7 @@ import { useState } from 'react';
 export default function ChatList() {
   const [active, setActive] = useState(true);
   return (
-    <div>
+    <div className="flex-1 ">
       <div className="flex items-center gap-5 p-5">
         <div className="flex items-center flex-1 bg-[rgba(17,25,40,0.75)] p-3 rounded-md gap-2">
           <FaSearch className="w-[20px] h-[20px]" />
@@ -27,6 +27,34 @@ export default function ChatList() {
               onClick={() => setActive(!active)}
             />
           )}
+        </div>
+      </div>
+      <div className="item">
+        <div className="e-avatar e-avatar-large rounded-full"></div>
+        <div>
+          <span>Jane Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <div className="e-avatar e-avatar-large rounded-full"></div>
+        <div>
+          <span>Jane Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <div className="e-avatar e-avatar-large rounded-full"></div>
+        <div>
+          <span>Jane Doe</span>
+          <p>Hello</p>
+        </div>
+      </div>
+      <div className="item">
+        <div className="e-avatar e-avatar-large rounded-full"></div>
+        <div>
+          <span>Jane Doe</span>
+          <p>Hello</p>
         </div>
       </div>
     </div>
