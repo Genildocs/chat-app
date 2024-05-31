@@ -1,0 +1,22 @@
+/* SyncFusion */
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+/*  */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background: linear-gradient(
+      135deg,
+      rgba(45, 135, 180, 1) 2%,
+      rgba(53, 112, 151, 1) 50%,
+      rgba(50, 100, 129, 1) 51%,
+      rgba(0, 132, 219, 1) 78%,
+      rgba(0, 132, 219, 1) 100%
+    );
+    @apply flex items-center justify-center min-h-screen text-white;
+  }
+}
