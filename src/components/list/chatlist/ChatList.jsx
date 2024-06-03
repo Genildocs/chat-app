@@ -1,13 +1,13 @@
-import { FaSearch } from 'react-icons/fa';
-import { BiPlus } from 'react-icons/bi';
-import { BiMinus } from 'react-icons/bi';
-import { useState } from 'react';
+import { FaSearch } from "react-icons/fa";
+import { BiPlus } from "react-icons/bi";
+import { BiMinus } from "react-icons/bi";
+import { useState } from "react";
 export default function ChatList() {
   const [active, setActive] = useState(true);
   return (
     <div className="flex-1 ">
-      <div className="flex items-center gap-5 p-5">
-        <div className="flex items-center flex-1 bg-[rgba(17,25,40,0.75)] p-3 rounded-md gap-2">
+      <div className="iFlex gap-5 p-5">
+        <div className="iFlex flex-1 bg-[rgba(17,25,40,0.75)] p-3 rounded-md gap-2">
           <FaSearch className="w-[20px] h-[20px]" />
           <input
             type="text"

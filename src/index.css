@@ -1,6 +1,6 @@
 /* SyncFusion */
-@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
-@import '../node_modules/@syncfusion/ej2-layouts/styles/material.css';
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-layouts/styles/material.css";
 /*  */
 
 @tailwind base;
@@ -25,5 +25,9 @@
   .item {
     @apply flex items-center gap-5 p-5 cursor-pointer;
     border-bottom: 1px solid #dddddd35;
+  }
+
+  .iFlex {
+    @apply flex items-center;
   }
 }

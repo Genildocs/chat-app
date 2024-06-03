@@ -1,11 +1,11 @@
-import { IoVideocamSharp } from 'react-icons/io5';
-import { FaRegEdit } from 'react-icons/fa';
-import { RxBorderDotted } from 'react-icons/rx';
+import { IoVideocamSharp } from "react-icons/io5";
+import { FaRegEdit } from "react-icons/fa";
+import { RxBorderDotted } from "react-icons/rx";
 export default function UserInfor() {
-  let name = 'Paulo Silveira';
+  let name = "Paulo Silveira";
   return (
-    <div className=" p-5 flex items-center justify-between gap-3">
-      <div className="flex items-center gap-3">
+    <div className=" p-5 iFlex justify-between gap-3">
+      <div className="iFlex gap-3">
         <div className="e-avatar e-avatar-large rounded-full w-[50px] h-[50px] object-cover"></div>
         <h2 className="text-sm font-semibold">{name}</h2>
       </div>
