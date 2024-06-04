@@ -1,6 +1,6 @@
 /* SyncFusion */
-@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
-@import "../node_modules/@syncfusion/ej2-layouts/styles/material.css";
+@import '../node_modules/@syncfusion/ej2-base/styles/material.css';
+@import '../node_modules/@syncfusion/ej2-layouts/styles/material.css';
 /*  */
 
 @tailwind base;
@@ -29,5 +29,11 @@
 
   .iFlex {
     @apply flex items-center;
+  }
+
+  .chat {
+    flex: 2;
+    border-left: 1px solid #dddddd35;
+    border-right: 1px solid #dddddd35;
   }
 }
